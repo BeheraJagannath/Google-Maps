@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">गूगल मानचित्र</string>
+    <string name="title_activity_maps">मानचित्र गतिविधि</string>
+    <string name="google_map_api_key">एआईज़ासीसीओओ2टी61तेरा-हिवन8सीओजीक्यूएनकेआईएचएनयूटीपीवाई6जेएनई</string>
+    <string name="hello_blank_fragment">हैलो खाली टुकड़ा</string>
+    <string name="german">जर्मन</string>
+    <string name="hindi">हिंदी</string>
+    <string name="odia">उड़िया</string>
+    <string name="cliping">cliping</string>
+    <string name="translated">Translated</string>
+    <string name="skewed">skewed</string>
+    <dimen name="textSize">10dp</dimen>
+    <dimen name="textOffset">10dp</dimen>
+    <dimen name="circleRadius">10dp</dimen>
+    <dimen name="smallRectOffset">10dp</dimen>
+    <dimen name="rectInset">10dp</dimen>
+    <dimen name="clipRectLeft">10dp</dimen>
+    <dimen name="clipRectTop">10dp</dimen>
+    <dimen name="clipRectBottom">10dp</dimen>
+    <dimen name="clipRectRight">10dp</dimen>
+    <dimen name="strokeWidth">10dp</dimen>
+</resources>

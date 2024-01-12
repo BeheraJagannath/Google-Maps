@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15sp"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:completionThreshold="1"
+            android:hint="Enter Address"
+            android:imeOptions="actionDone"
+            android:drawableRight="@drawable/ic_search_vector"
+            android:background="@drawable/search_drawable"
+            android:inputType="text"
+            android:lines="1"
+            android:paddingLeft="22dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/rell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15sp"
+
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/search_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="10sp"
+            android:src="@drawable/ic_search_vector" />
+
+        <EditText
+            android:id="@+id/adress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginVertical="5dp"
+            android:layout_toEndOf="@+id/search_image"
+            android:background="@null"
+            android:hint="Enter Address"
+            android:imeOptions="actionSearch"
+            android:padding="7dp"
+            android:singleLine="true"
+            android:textColor="@color/black">
+
+        </EditText>
+
+    </RelativeLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="15dp"
+        android:visibility="visible"
+        android:layout_below="@+id/rel"
+        android:layout_marginTop="5sp">
+        <ImageView
+            android:id="@+id/gps"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="8sp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_gps_vector" />
+
+    </RelativeLayout>
+</RelativeLayout>

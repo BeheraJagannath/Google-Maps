@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Google Maps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_map_api_key">AIzaSyCOo2T61Thy-Hiwn8CoGqnkIHNuTPY6JnE</string>
+    <string name="hello_blank_fragment">Hello blank %s\nto fragment</string>
+    <string name="german">German</string>
+    <string name="hindi">Hindi</string>
+    <string name="odia">Odia</string>
+    <string name="cliping">Clipping</string>
+    <string name="translated">Translated</string>
+    <string name="skewed">skewed</string>
+    <dimen name="textSize">20dp</dimen>
+    <dimen name="textOffset">20dp</dimen>
+    <dimen name="circleRadius">20dp</dimen>
+    <dimen name="smallRectOffset">20dp</dimen>
+    <dimen name="rectInset">20dp</dimen>
+    <dimen name="clipRectLeft">20dp</dimen>
+    <dimen name="clipRectTop">20dp</dimen>
+    <dimen name="clipRectBottom">20dp</dimen>
+    <dimen name="clipRectRight">20dp</dimen>
+    <dimen name="strokeWidth">20dp</dimen>
+
+</resources>

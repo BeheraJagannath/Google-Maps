@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ଗୁଗଲ ମାନଚିତ୍ର</string>
+    <string name="title_activity_maps">ମାନଚିତ୍ରଗୁଡିକ</string>
+    <string name="google_map_api_key" translatable="false">AIzaSyCOo2T61Thy-Hiwn8CoGqnkIHNuTPY6JnE</string>
+    <string name="hello_blank_fragment">ନମସ୍କାର ଖାଲି ଖଣ୍ଡ |</string>
+    <string name="german">ଜର୍ମାନ୍</string>
+    <string name="hindi">ହିନ୍ଦୀ</string>
+    <string name="odia">ଓଡିଆ</string>
+    <string name="cliping">cliping</string>
+    <string name="translated">Translated</string>
+    <string name="skewed">skewed</string>
+    <dimen name="textSize">10dp</dimen>
+    <dimen name="textOffset">10dp</dimen>
+    <dimen name="circleRadius">10dp</dimen>
+    <dimen name="smallRectOffset">10dp</dimen>
+    <dimen name="rectInset">10dp</dimen>
+    <dimen name="clipRectLeft">10dp</dimen>
+    <dimen name="clipRectTop">10dp</dimen>
+    <dimen name="clipRectBottom">10dp</dimen>
+    <dimen name="clipRectRight">10dp</dimen>
+    <dimen name="strokeWidth">10dp</dimen>
+</resources>

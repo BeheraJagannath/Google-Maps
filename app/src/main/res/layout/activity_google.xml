@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoogleActivity">
+    <LinearLayout
+        android:id="@+id/mLinearFirst"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:completionThreshold="1"
+            android:hint="Enter Location"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:lines="1"
+            android:paddingLeft="22dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
